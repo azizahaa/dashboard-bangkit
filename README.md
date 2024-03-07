@@ -1,4 +1,4 @@
-# Dicoding Bikers Dashboard
+# Dicoding Bikers Dashboard ✨
 
 ## Setup environment
 ```
@@ -11,3 +11,4 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 ```
 streamlit run dashboard.py
 ```
+
