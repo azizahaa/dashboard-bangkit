@@ -47,6 +47,7 @@ min_date = all_df["dteday"].min()
 max_date = all_df["dteday"].max()
 
 #Membuat dataset 
+tahun = st.selectbox(label = 'Choose The Year', options = (2011,2012), key='year_selectbox')
 weekday_df=create_weekday_tabel(all_df)
 season_df=create_season_tabel(all_df)
 weathersit_df=create_weathersit_tabel(all_df)
